@@ -1,0 +1,77 @@
+.ModalWindowWrap {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:5;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.ModalContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    padding-bottom: 15px;
+    padding-right: 5px;
+   box-shadow: 5px 9px 19px 0px rgba(34, 60, 80, 0.26);
+}
+
+.titlerow {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+
+.button_row {
+    margin-top: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.comment_row {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment_window {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+
+.comment_window__item {
+    width: 100%;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.comment_window__item:hover {
+    background-color: rgb(221, 221, 221);
+}

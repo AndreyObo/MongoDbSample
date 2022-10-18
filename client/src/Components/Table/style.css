@@ -1,0 +1,38 @@
+.table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.table__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    height: 30px;
+}
+
+.table__item:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.first_col {
+    flex: 2;
+}
+
+.second_col {
+    flex: 4;
+}
+
+.table__selitem {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    height: 30px;
+}

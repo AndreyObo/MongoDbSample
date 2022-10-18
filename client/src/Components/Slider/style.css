@@ -1,0 +1,77 @@
+.slider {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 500px;
+}
+
+.slider__buttonrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.slider__title {
+    margin-bottom: 15px;
+}
+
+.slider__text {
+    height: 100px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.slider__markrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.slider__mark {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.slider__mark_select {
+    background-color: white;
+}
+
+.slider__mark_unselect {
+    background-color: white;
+    opacity: 30%;
+}
+
+.slider__button {
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(147, 147, 147, 0.4);
+    text-align: center;
+    color: white;
+    user-select: none;
+    font-size: 16;
+}
+
+.slider__button_margin {
+    margin-left: 10px;
+}
+
+.slider__button:hover {
+    background-color:rgba(147, 147, 147, 0.5);
+}
+
+.slider__button:active {
+    background-color:rgba(147, 147, 147, 0.6);
+}
+
